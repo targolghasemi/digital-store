@@ -53,7 +53,7 @@ const SearchBox = () => {
       />
 
       {suggestions.length > 0 && (
-        <ul className="absolute top-full mt-1 w-full rounded-lg border border-purple-200 bg-purple-50/60 backdrop-blur-md shadow-lg z-20">
+        <ul className="w-[240px] absolute top-full mt-1 w-full rounded-lg border border-purple-200 bg-purple-50/60 backdrop-blur-md shadow-lg z-20">
           {suggestions.map((product)=>(
             <li
             className="px-4 py-2 text-sm text-purple-900 hover:bg-purple-200/50 cursor-pointer transition"
